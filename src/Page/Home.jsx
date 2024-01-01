@@ -5,8 +5,10 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <Services />
-      <IntroCarousel />
+      <div style={{ marginTop: "10rem", zIndex: 4 }} className="mainSection">
+        <Services />
+        <IntroCarousel />
+      </div>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, IntroCarousel, Services } from "../Components";
+import { ConnectWithUs, Header, IntroCarousel, Services } from "../Components";
 
 const Home = () => {
   return (
@@ -8,6 +8,7 @@ const Home = () => {
       <div style={{ marginTop: "10rem", zIndex: 4 }} className="mainSection">
         <Services />
         <IntroCarousel />
+        <ConnectWithUs />
       </div>
     </div>
   );

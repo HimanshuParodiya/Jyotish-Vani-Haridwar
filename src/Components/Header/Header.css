@@ -8,7 +8,9 @@
     left: 0;
     right: 0;
     z-index: 11;
-    background-color: #FFFBF5;
+    /* background-color: #FFFBF5; */
+    background-color: #fff;
+
     height: 10rem;
 
 }

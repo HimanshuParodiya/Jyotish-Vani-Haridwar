@@ -1,0 +1,64 @@
+{
+    "OverlayData": [
+        {
+            "id": 1,
+            "MainHeading": "Jyotishi Enquiry",
+            "SubHeadings": [
+                "Enquiry 1",
+                "Enquiry 2",
+                "Enquiry 3",
+                "Enquiry 4",
+                "Enquiry 5",
+                "Enquiry 6"
+            ]
+        },
+        {
+            "id": 2,
+            "MainHeading": "Vastu",
+            "SubHeadings": [
+                "Vastu 1",
+                "Vastu 2",
+                "Vastu 3",
+                "Vastu 4",
+                "Vastu 5",
+                "Vastu 6"
+            ]
+        },
+        {
+            "id": 3,
+            "MainHeading": "Online Puja",
+            "SubHeadings": [
+                "Puja 1",
+                "Puja 2",
+                "Puja 3",
+                "Puja 4",
+                "Puja 5",
+                "Puja 6"
+            ]
+        },
+        {
+            "id": 4,
+            "MainHeading": "Vedic Gyan",
+            "SubHeadings": [
+                "Gyan 1",
+                "Gyan 2",
+                "Gyan 3",
+                "Gyan 4",
+                "Gyan 5",
+                "Gyan 6"
+            ]
+        },
+        {
+            "id": 5,
+            "MainHeading": "Live Pooja telecast ",
+            "SubHeadings": [
+                "Ganaga Puja Sankalp",
+                "Narayan Bali Pooja",
+                "Kal Sharp Yagy",
+                "Pooja 4",
+                "Pooja 5",
+                "Pooja 6"
+            ]
+        }
+    ]
+}

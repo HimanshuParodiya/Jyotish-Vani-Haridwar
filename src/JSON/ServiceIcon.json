@@ -1,0 +1,29 @@
+{
+    "serviceIconData": [
+        {
+            "id": 1,
+            "imgLink": "/src/assets/yagy.png",
+            "title": "Online Puja"
+        },
+        {
+            "id": 2,
+            "imgLink": "/src/assets/Panchang.png",
+            "title": "Panchang"
+        },
+        {
+            "id": 3,
+            "imgLink": "/src/assets/Kundali.png",
+            "title": "Kundali"
+        },
+        {
+            "id": 4,
+            "imgLink": "/src/assets/KundaliMatch.png",
+            "title": "Kundali Match"
+        },
+        {
+            "id": 5,
+            "imgLink": "/src/assets/astrology.png",
+            "title": "Horoscope"
+        }
+    ]
+}

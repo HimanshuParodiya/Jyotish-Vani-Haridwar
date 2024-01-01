@@ -1,0 +1,23 @@
+.carousel_container {
+    box-shadow: 6px 8px 26px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 6px 8px 26px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 8px 26px 0px rgba(0, 0, 0, 0.75);
+    margin: 0 10%;
+    margin-top: 2rem;
+    border-bottom: none;
+}
+
+li.slide {
+    height: 60vh;
+
+}
+
+.carousel .thumbs-wrapper {
+    display: none;
+}
+
+
+.thumbs,
+.carousel-status {
+    display: none;
+}

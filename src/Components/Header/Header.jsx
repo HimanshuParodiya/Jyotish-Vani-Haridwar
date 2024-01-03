@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.css";
 import logo from "../../assets/JyotishVaniHaridwar_logo.png";
 import { LuUserCircle2 } from "react-icons/lu";
@@ -6,10 +6,29 @@ import { BiSearch } from "react-icons/bi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import OverlayMenu from "./OverlayMenu";
+import { SiGoogletranslate } from "react-icons/si";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [mobileDevice, setMobileDevice] = useState(false);
   const [showOverlay, setShowOverlay] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setMobileDevice(window.innerWidth > 600);
+    };
+
+    // Set initial state on component mount
+    handleResize();
+
+    // Listen for window resize events
+    window.addEventListener("resize", handleResize);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const handleCloseMenu = () => {
     setMenuOpen(false);
@@ -47,10 +66,14 @@ const Header = () => {
       </div>
       <div className="header_right">
         <div className="headerRight_language">
-          <select id="language_Selection">
-            <option value="Hindi">Hindi</option>
-            <option value="English">English</option>
-          </select>
+          {mobileDevice ? (
+            <select id="language_Selection">
+              <option value="Hindi">Hindi</option>
+              <option value="English">English</option>
+            </select>
+          ) : (
+            <SiGoogletranslate className="googleTranslateIcon" />
+          )}
         </div>
         <div className="headerRight_signUpIconText">
           <LuUserCircle2 className="headerRight_signUpIcon" />

@@ -144,3 +144,105 @@
     border-bottom: 2rem solid hsl(26, 20%, 90%);
     /* Height of the triangle, and set the color */
 }
+
+
+/* Small screens (phones) */
+@media screen and (max-width: 600px) {
+    .header_logo {
+        height: 70px;
+    }
+
+    .header_left {
+        flex-direction: column;
+    }
+
+    .headerLogo_text {
+        margin-top: -2rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+    }
+
+    .headerLogo_name {
+        font-size: 1.2rem;
+    }
+
+    .headerLogo_subtitle {
+        font-size: 0.8rem;
+    }
+
+    .headerRight_searchBarIcon {
+        right: 5%;
+    }
+
+    .headerRight_searchBar input {
+        padding: 0 3rem 0 1rem;
+        font-size: 1.6rem;
+    }
+
+    .googleTranslateIcon {
+        font-size: 3rem;
+        margin-right: 2rem;
+        color: blue;
+    }
+
+    .headerRight_signUpIcon {
+        margin-right: 2rem;
+    }
+
+    .headerRight_signUpText {
+        display: none;
+    }
+
+
+}
+
+
+/* Medium screens (tablets) */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .header_logo {
+        height: 70px;
+    }
+
+    .header_left {
+        flex-direction: column;
+    }
+
+    .headerLogo_text {
+        margin-top: -2rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+    }
+
+    .headerLogo_name {
+        font-size: 1.2rem;
+    }
+
+    .headerLogo_subtitle {
+        font-size: 0.8rem;
+    }
+
+
+    .headerRight_searchBarIcon {
+        right: 5%;
+    }
+
+    .headerRight_searchBar input {
+        padding: 0 3rem 0 1rem;
+        font-size: 1.6rem;
+    }
+
+    .googleTranslateIcon {
+        font-size: 3rem;
+        margin-right: 2rem;
+        color: blue;
+    }
+
+    .headerRight_signUpIcon {
+        margin-right: 2rem;
+    }
+
+    .headerRight_signUpText {
+        display: none;
+    }
+
+}

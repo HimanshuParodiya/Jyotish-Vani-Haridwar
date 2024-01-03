@@ -36,3 +36,29 @@
     opacity: 0;
     transition: all 0.225s ease-in-out;
 }
+
+
+@media screen and (max-width:600px) {
+    .eachSpecialists__container {
+        height: 25rem;
+        margin: 2.5rem 0;
+    }
+
+    .eachSpecialists__name {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media screen and (min-width:601px) and (max-width:768px) {
+
+    .eachSpecialists__container {
+        height: 25rem;
+        margin: 2.5rem 0;
+    }
+
+    .eachSpecialists__name {
+        font-size: 0.8rem;
+    }
+
+}

@@ -7,7 +7,7 @@ const EachSpecialists = ({ img, name }) => {
       <div className="intro_text">
         <ul>
           <li>
-            Meet <span className="eachSpecialists__name">{name}</span>
+            Meet <span className="eachSpecialistsIntro__name">{name}</span>
           </li>
           <li>He has Done PHD</li>
           <li>He is awarded by the President "President Name" </li>

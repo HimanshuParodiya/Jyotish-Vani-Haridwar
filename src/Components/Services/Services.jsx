@@ -5,16 +5,7 @@ import ServiceIconData from "../../JSON/ServiceIcon.json";
 
 const Services = () => {
   return (
-    <div
-      className="container"
-      style={{
-        display: "flex",
-        justifyContent: "space-evenly",
-        alignItems: "center",
-        flexDirection: "row",
-        flexWrap: "wrap",
-      }}
-    >
+    <div className="service__container container">
       {ServiceIconData.serviceIconData.map((iconData) => (
         <div key={iconData.id} className="ServiceImgIconContainer">
           <ServiceIcon iconImg={iconData.imgLink} iconsTitle={iconData.title} />

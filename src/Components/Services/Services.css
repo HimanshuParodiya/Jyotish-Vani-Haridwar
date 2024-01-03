@@ -3,6 +3,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    border: 1px solid red;
 }
 
 
@@ -10,12 +11,12 @@
     .service__container {
         flex-wrap: nowrap;
         overflow-x: scroll;
-        margin: 0 10%;
+        padding: 0 10%;
     }
 
-    .service__container::-webkit-scrollbar {
-        display: none;
-    }
+    /* .service__container::-webkit-scrollbar { */
+    /* display: none; */
+    /* } */
 
     .service__container.container {
         padding: 0;
@@ -27,12 +28,13 @@
     .service__container {
         flex-wrap: nowrap;
         overflow-x: scroll;
-        margin: 0 10%;
+        padding: 0 10%;
+        border: 1px solid red;
     }
 
-    .service__container::-webkit-scrollbar {
-        display: none;
-    }
+    /* .service__container::-webkit-scrollbar { */
+    /* display: none; */
+    /* } */
 
     .service__container.container {
         padding: 0;

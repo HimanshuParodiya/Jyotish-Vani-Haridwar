@@ -170,13 +170,8 @@
         font-size: 0.8rem;
     }
 
-    .headerRight_searchBarIcon {
-        right: 5%;
-    }
-
-    .headerRight_searchBar input {
-        padding: 0 3rem 0 1rem;
-        font-size: 1.6rem;
+    .headerRight_searchBar {
+        display: none;
     }
 
     .googleTranslateIcon {

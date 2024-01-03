@@ -1,8 +1,8 @@
 import React from "react";
 import "./Specialists.css";
 import EachSpecialists from "./EachSpecialists/EachSpecialists";
-import RakeshBhaiya from "/src/assets/RakeshBhaiya.png";
-import MukeshBhaiya from "/src/assets/MukeshBhaiya.png";
+import RakeshBhaiya from "/assets/RakeshBhaiya.png";
+import MukeshBhaiya from "/assets/MukeshBhaiya.png";
 
 const Specialists = () => {
   return (

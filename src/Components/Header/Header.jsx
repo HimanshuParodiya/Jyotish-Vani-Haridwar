@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Header.css";
-import logo from "../../assets/JyotishVaniHaridwar_logo.png";
+import logo from "/assets/JyotishVaniHaridwar_logo.png";
 import { LuUserCircle2 } from "react-icons/lu";
 import { BiSearch } from "react-icons/bi";
 import { GiHamburgerMenu } from "react-icons/gi";

@@ -1,8 +1,8 @@
 import React from "react";
 import "./ConnectWithUs.css";
 import ConnectWithUsIcons from "./ConnectWithUsIcons/ConnectWithUsIcons";
-import phoneIcon from "/src/assets/phone.png";
-import chatIcon from "/src/assets/chat.png";
+import phoneIcon from "/assets/phone.png";
+import chatIcon from "/assets/chat.png";
 
 const ConnectWithUs = () => {
   return (

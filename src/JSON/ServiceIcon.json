@@ -2,27 +2,27 @@
     "serviceIconData": [
         {
             "id": 1,
-            "imgLink": "/src/assets/yagy.png",
+            "imgLink": "/assets/yagy.png",
             "title": "Online Puja"
         },
         {
             "id": 2,
-            "imgLink": "/src/assets/Panchang.png",
+            "imgLink": "/assets/Panchang.png",
             "title": "Panchang"
         },
         {
             "id": 3,
-            "imgLink": "/src/assets/Kundali.png",
+            "imgLink": "/assets/Kundali.png",
             "title": "Kundali"
         },
         {
             "id": 4,
-            "imgLink": "/src/assets/KundaliMatch.png",
+            "imgLink": "/assets/KundaliMatch.png",
             "title": "Kundali Match"
         },
         {
             "id": 5,
-            "imgLink": "/src/assets/astrology.png",
+            "imgLink": "/assets/astrology.png",
             "title": "Horoscope"
         }
     ]

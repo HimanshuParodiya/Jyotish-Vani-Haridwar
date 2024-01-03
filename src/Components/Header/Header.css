@@ -180,17 +180,32 @@
     }
 
     .googleTranslateIcon {
-        font-size: 3rem;
+        font-size: 2rem;
         margin-right: 2rem;
         color: blue;
     }
 
-    .headerRight_signUpIcon {
+    .header_right .headerRight_signUpIcon {
+        font-size: 3rem;
         margin-right: 2rem;
     }
 
     .headerRight_signUpText {
         display: none;
+    }
+
+    .overlay_menu {
+        width: 100vw;
+        right: -2.5rem;
+        padding: 1rem;
+        border: 1px solid red;
+
+
+    }
+
+    .overlay_menu::after {
+        right: 2.5rem;
+        top: -2rem;
     }
 
 
@@ -237,12 +252,27 @@
         color: blue;
     }
 
-    .headerRight_signUpIcon {
+    .header_right .headerRight_signUpIcon {
+        font-size: 3rem;
+
         margin-right: 2rem;
     }
 
     .headerRight_signUpText {
         display: none;
+    }
+
+    .overlay_menu {
+        width: 100vw;
+        height: 100vh;
+        right: -2rem;
+        padding: 2rem;
+
+    }
+
+    .overlay_menu::after {
+        right: 2rem;
+        top: -2rem;
     }
 
 }

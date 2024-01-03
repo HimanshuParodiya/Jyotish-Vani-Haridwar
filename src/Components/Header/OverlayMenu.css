@@ -3,8 +3,6 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-
-
 }
 
 .overlayMenuData_container {
@@ -46,4 +44,22 @@
     margin-top: 1.5rem;
     cursor: pointer;
     font-weight: 500;
+}
+
+
+@media screen and (max-width : 600px) {
+    .overlayMenu_container {
+        flex-direction: column;
+
+    }
+
+
+    .overlayMenuHeading_title::after {
+        display: none;
+    }
+
+
+    .overlayMenuHeading_title .overlayMenuSubHeading {
+        display: flex;
+    }
 }

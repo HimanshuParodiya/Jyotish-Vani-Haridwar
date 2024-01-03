@@ -1,0 +1,38 @@
+.eachSpecialists__container {
+    height: 30rem;
+    aspect-ratio: 1/1;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.intro_text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    color: #333;
+    text-align: left;
+    padding: 2.4rem;
+    font-size: 1.6rem;
+    z-index: -1;
+    border-radius: 10%;
+}
+
+.intro_text .eachSpecialists__name {
+    color: red;
+}
+
+.eachSpecialists__container img {
+    border-radius: 10%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.eachSpecialists__container:hover img {
+    opacity: 0;
+    transition: all 0.225s ease-in-out;
+}

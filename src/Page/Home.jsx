@@ -1,5 +1,11 @@
 import React from "react";
-import { ConnectWithUs, Header, IntroCarousel, Services } from "../Components";
+import {
+  ConnectWithUs,
+  Header,
+  IntroCarousel,
+  Services,
+  Specialists,
+} from "../Components";
 
 const Home = () => {
   return (
@@ -9,6 +15,7 @@ const Home = () => {
         <Services />
         <IntroCarousel />
         <ConnectWithUs />
+        <Specialists />
       </div>
     </div>
   );

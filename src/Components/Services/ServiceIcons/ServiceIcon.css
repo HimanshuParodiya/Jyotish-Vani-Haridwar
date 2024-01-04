@@ -23,8 +23,7 @@
 
 @media screen and (max-width: 600px) {
     .iconContainer {
-        width: 8rem;
-        margin: 1rem;
+        width: 6rem;
     }
 
     .iconContainer img {
@@ -41,8 +40,7 @@
 /* Medium screens (tablets) */
 @media screen and (min-width: 601px) and (max-width: 768px) {
     .iconContainer {
-        width: 10rem;
-        margin: 1rem;
+        width: 8rem;
     }
 
     .iconContainer img {

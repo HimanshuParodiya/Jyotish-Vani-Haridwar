@@ -49,17 +49,31 @@
 
 @media screen and (max-width : 600px) {
     .overlayMenu_container {
-        flex-direction: column;
+        display: block;
+        padding-left: 1rem;
 
     }
 
+    .overlayMenuHeading_title {
+        font-size: 1.8rem;
+        text-decoration: none;
+    }
 
     .overlayMenuHeading_title::after {
-        display: none;
+        content: "";
+        position: absolute;
+        top: 0;
+        right: -10rem;
+        background-color: #44414161;
+        height: 100%;
+        width: 0.1rem;
     }
 
 
-    .overlayMenuHeading_title .overlayMenuSubHeading {
-        display: flex;
+    .overlayMenuSubHeading {
+        display: block;
+        opacity: 0;
+        max-height: 0;
+        margin-left: 2rem;
     }
 }

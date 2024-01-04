@@ -3,6 +3,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+
 }
 
 .overlayMenuData_container {
@@ -52,6 +53,11 @@
         display: block;
         padding-left: 1rem;
 
+        height: 100%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        padding-bottom: 10rem;
+
     }
 
     .overlayMenuHeading_title {
@@ -75,5 +81,7 @@
         opacity: 0;
         max-height: 0;
         margin-left: 2rem;
+
+
     }
 }

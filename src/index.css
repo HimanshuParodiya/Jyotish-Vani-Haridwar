@@ -17,6 +17,11 @@
   font-size: 62.5%;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
+
 .container {
   /* max-width: 150rem; */
   /* padding: 120rem; */

@@ -1,7 +1,5 @@
-.specialists__heading {
-    font-size: 3rem;
+.specialists__heading.mainHeading {
     margin-top: 3rem;
-    text-align: center;
 }
 
 .specialists__box {

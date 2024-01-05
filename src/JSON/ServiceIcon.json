@@ -24,6 +24,11 @@
             "id": 5,
             "imgLink": "/assets/astrology.png",
             "title": "Horoscope"
+        },
+        {
+            "id": 6,
+            "imgLink": "/assets/vastu.png",
+            "title": "Vastu"
         }
     ]
 }

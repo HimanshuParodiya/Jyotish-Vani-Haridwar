@@ -7,7 +7,7 @@ import MukeshBhaiya from "/assets/MukeshBhaiya.png";
 const Specialists = () => {
   return (
     <div className="specialists__container container">
-      <h1 className="specialists__heading">Meet Our Specialists</h1>
+      <h1 className="specialists__heading mainHeading">Meet Our Specialists</h1>
       <div className="specialists__box">
         <EachSpecialists img={RakeshBhaiya} name="Dr. Rakesh Parodiya" />
         <EachSpecialists img={MukeshBhaiya} name="AR. Mukesh Parodiya" />

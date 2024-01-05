@@ -7,7 +7,7 @@ import chatIcon from "/assets/chat.png";
 const ConnectWithUs = () => {
   return (
     <div className="connectWithUs__container container">
-      <h1 className="connectWithUs__heading">Connect Us</h1>
+      <h1 className="connectWithUs__heading mainHeading">Connect Us</h1>
       <h1 className="connectWithUs__SubHeading">
         Engage in a Conversation or Chat with Us
       </h1>

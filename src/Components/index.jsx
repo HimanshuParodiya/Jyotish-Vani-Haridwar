@@ -4,6 +4,7 @@ import IntroCarousel from "./Main/IntroCarousel";
 import Services from "./Services/Services";
 import EachSpecialists from "./Specialists/EachSpecialists/EachSpecialists";
 import Specialists from "./Specialists/Specialists";
+import Testimonial from "./Testimonial/Testimonial";
 
 export {
   Header,
@@ -12,4 +13,5 @@ export {
   ConnectWithUs,
   Specialists,
   EachSpecialists,
+  Testimonial,
 };

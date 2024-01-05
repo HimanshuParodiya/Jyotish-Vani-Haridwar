@@ -5,6 +5,7 @@ import {
   IntroCarousel,
   Services,
   Specialists,
+  Testimonial,
 } from "../Components";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
         <IntroCarousel />
         <ConnectWithUs />
         <Specialists />
+        <Testimonial />
       </div>
     </div>
   );
